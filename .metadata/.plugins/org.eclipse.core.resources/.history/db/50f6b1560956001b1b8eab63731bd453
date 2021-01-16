@@ -1,0 +1,5 @@
+package com.fofana23.app.repository;
+
+public class AccountRepository {
+
+}

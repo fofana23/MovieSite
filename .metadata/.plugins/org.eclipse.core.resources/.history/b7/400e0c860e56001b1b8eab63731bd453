@@ -1,0 +1,20 @@
+package com.fofana23.app.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.fofana23.app.model.AccountHolder;
+import com.fofana23.app.repository.AccountRepository;
+
+@Service
+public class UserService {
+
+	@Autowired
+	AccountHolderRepository holderRepo;
+	@Autowired
+	AccountRepository accountRepo;
+	
+	public AccountHolder register(AccountHolder holder) {
+	}
+	
+}
